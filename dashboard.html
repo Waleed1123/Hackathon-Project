@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="post.css">
+    <title>My Blog</title>
+</head>
+<body>
+    <header>
+        <h1>DASHBOARD</h1>
+    </header>
+    
+        
+        
+    
+
+    <form onsubmit="addpost(); return false" id="post-form">
+        <input type="text" id="author-name" placeholder="Title">
+        <textarea id="post-text" placeholder="Write your blog post"></textarea>
+        <button  class="submit" type="submit">Publish Blog</button>
+    </form>
+
+    <div id="post-container"></div>
+
+    <script type="module" src="./app.mjs"></script>
+
+
+</body>
+</html>
